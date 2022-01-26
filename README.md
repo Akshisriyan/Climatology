@@ -1,6 +1,3 @@
-# Climatologywatch
-NSBM GREEN UNIVERSITY
-Faculty of Computing
-Web project
-21.1 Batch
+# Climatology
+
 Group NO 28
