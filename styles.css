@@ -14,3 +14,22 @@ h1.title{
 	word-spacing: 25px;
 	letter-spacing: 5px;
 }
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb7922f8;
+    color: #fb7122;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+.banner_image{
+	background: url('image 4.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
