@@ -7,6 +7,7 @@
             HOME PAGE
         </title>
         <link rel="stylesheet" type="text/css" href="Home.css">
+        <script src="Home.js"></script>
     </head>
     <body>
         <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -33,7 +34,33 @@
         
             </div>
           </header>
-                  <!-- Section 1 -->
+          <hr/>
+          <h2>Live Weather Status</h2>
+          <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+            <select onchange="getW(this)">
+              <option value="1248991" >Sri Lanka - Colombo</option>
+              <option value="1251081">Sri Lanka - Anuradhapura</option>
+              <option value="1816670">China - Beijing</option>
+              <option value="1796236">China - Shanghai</option>
+              <option value="1264527">India - Chennai</option>
+              <option value="1269843">India - Hyderabad</option>         
+              <option value="1162015">Pakistan - Islamabad</option>
+              <option value="1174872">Pakistan - Karachi</option>
+              <option value="5128581">USA - New York City</option>
+              <option value="5368361">USA - Los Angeles</option>
+
+            </select>
+          </div>
+          <div style="display: inline-block;">
+              <img style="width: 200px; vertical-align: top;" id="weatherimg"src=""/>
+
+              <div style="display:inline-block; vertical-align: bottom;margin-bottom: 35px;">
+                <h4>Weather : <span id="weather"></span> °C</h4>
+                <h4>Humidity : <span id="humidity"></span> %</h4>
+                <h4>Description : <span id="description"></span></h4>
+              </div>
+          </div>
+          <hr/>
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
