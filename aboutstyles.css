@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	outline: none;
+	list-style: none;
 	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -14,6 +16,15 @@ h1.title{
 	word-spacing: 25px;
 	letter-spacing: 5px;
 }
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #1f3564b6;
+}
+
+
 .btn a {
     width: 180px;
     height: 35px;
@@ -24,6 +35,11 @@ h1.title{
     margin: 25px auto 0;
     text-align: center;
 }
+
+.main_container{
+	position: relative;
+} 
+
 .banner_image{
 	background: url('image 4.jpg') no-repeat top center;
 	background-size: cover;
