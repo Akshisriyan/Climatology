@@ -1,13 +1,15 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Poppins', sans-serif;
     color: #444;
     background-image: url("./images/projectlist-bg.jpg");
     background-size: cover;
 }
   
 a {
-    color: #4fa6d5;
+    color: #4fa6d7;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
   
 a:hover {
@@ -19,7 +21,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Roboto", sans-serif;
 }
 
+nav ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
 nav ul li {
     margin-top: 10px;
     font-size: 20px;
+}
+
+
+nav ul p {
+    margin-left: 50px;
+    color: #1A2238;
+    font-family: 'Poppins', sans-serif;
 }
