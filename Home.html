@@ -2,94 +2,93 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Home</title>
+    <title>Home</title>
+
+    <link href="files/animate.css/animate.min.css" rel="stylesheet">
+    <link href="files/aos/aos.css" rel="stylesheet">
+    <link href="files/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="files/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="files/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="files/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 
-
-  
-  <link href="Home.css" rel="stylesheet">
+    <link href="Home.css" rel="stylesheet">
 
 
 </head>
 
 <body>
 
-  
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex justify-content-between align-items-center">
 
-      <div class="logo">
-        <h1 class="text-light">CLIMATOLOGY</h1>
-      
-      </div>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex justify-content-between align-items-center">
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="Home.html" href="">Home</a></li>
-          <li><a href="aboutus.html">About</a></li>
-          <li><a href="projectlink.html">Project List</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="signup page.html">Sign up</a></li>
-         
-          
-          <li><a href="">Contact Us</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+            <div class="logo">
+                <h1 class="text-light">CLIMATOLOGY</h1>
 
-    </div>
-  </header>
-  
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="Home.html" href="">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="projectlink.html">Project List</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="signup page.html">Sign up</a></li>
 
 
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
 
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown"> CLIMATOLOGY</h2>
-          <p class="animate__animated animate__fadeInUp">Content.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
-      </div>
+    </header>
 
-      
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">About Climotolgy</h2>
-          <p class="animate__animated animate__fadeInUp"> Content</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+
+
+    <section id="hero" class="d-flex justify-cntent-center align-items-center">
+        <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+            <div class="carousel-item active">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown"> CLIMATOLOGY</h2>
+                    <p class="animate__animated animate__fadeInUp">Content.</p>
+                    <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2 class="animate__animated animate__fadeInDown">About Climotolgy</h2>
+                    <p class="animate__animated animate__fadeInUp"> Content</p>
+                    <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                </div>
+            </div>
+
+
+
+            <a class="carousel-control-prev" href="#" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+            </a>
+
         </div>
-      </div>
+    </section>
 
-      
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Introduction</h2>
-          <p class="animate__animated animate__fadeInUp">Content</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
-
-    </div>
-  </section>
-  
-  <section id="wether" >
-    <hr/>
-  <h3 class="wether">Live Weather Status</h3>
-  <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
-    <select onchange="getW(this)">
+    <section id="wether">
+        <hr/>
+        <h3 class="wether">Live Weather Status</h3>
+        <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
+            <select onchange="getW(this)">
       <option value="1248991" >Sri Lanka - Colombo</option>
       <option value="1251081">Sri Lanka - Anuradhapura</option>
       <option value="1816670">China - Beijing</option>
@@ -102,219 +101,220 @@
       <option value="5368361">USA - Los Angeles</option>
 
     </select>
-  </div>
-  <div style="display: inline-block;">
-      <img style="width: 200px; vertical-align: top;" id="weatherimg"src=""/>
-
-      <div style="display:inline-block; vertical-align: bottom;margin-bottom: 35px;">
-        <h4>Weather : <span id="weather"></span> °C</h4>
-        <h4>Humidity : <span id="humidity"></span> %</h4>
-        <h4>Description : <span id="description"></span></h4>
-      </div>
-  </div>
-  <hr/>
-</section>
-  <main id="main">
-
-    
-    <section class="services">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-pink">
-              
-              <h4 class="title"><a href="https://www.nationalgeographic.org/topics/resource-library-climate-change/?q=&page=1&per_page=25">Climate Change</a></h4>
-              <p class="description">Global temperatures and sea levels are rising, and possibly contributing to larger more devastating storms. This can all be contributed to climate change. Climate change is defined as gradual changes in all the interconnected weather elements on our planet over approximately 30 years.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-             
-              <h4 class="title"><a href="https://www.nationalgeographic.org/encyclopedia/climate-refugees/?utm_source=BibblioRCM_Row">Climate Refugees</a></h4>
-              <p class="description">Climate change is changing the way we interact with our environments. With a changing climate come potential consequences for life on Earth.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              
-              <h4 class="title"><a href="https://www.nationalgeographic.org/article/weather-or-climate-whats-difference/?utm_source=BibblioRCM_Row">Weather or Climate</a></h4>
-              <p class="description">While weather refers to short-term changes in the atmosphere, climate refers to atmospheric changes over longer periods of time, usually 30 years or more.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-              
-              <h4 class="title"><a href="https://www.nationalgeographic.org/article/all-about-climate/?utm_source=BibblioRCM_Row">All About Climate</a></h4>
-              <p class="description">Climate is the long-term pattern of weather in a particular area. Weather can change from hour-to-hour, day-to-day, month-to-month or even year-to-year. A region’s weather patterns, usually tracked for at least 30 years, are considered its climate.</p>
-            </div>
-          </div>
-
         </div>
+        <div style="display: inline-block;">
+            <img style="width: 200px; vertical-align: top;" id="weatherimg" src="" />
 
-      </div>
+            <div style="display:inline-block; vertical-align: bottom;margin-bottom: 35px;">
+                <h4>Weather : <span id="weather"></span> °C</h4>
+                <h4>Humidity : <span id="humidity"></span> %</h4>
+                <h4>Description : <span id="description"></span></h4>
+            </div>
+        </div>
+        <hr/>
     </section>
+    <main id="main">
 
-  
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6 video-box">
-            <img src="https://th.bing.com/th?id=OIF.NIEAH6yAM%2b382XM5axOtrQ&pid=ImgDet&rs=1" class="img-fluid" alt="">
-            
-          </div>
+        <section class="services">
+            <div class="container">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+                        <div class="icon-box icon-box-pink">
 
-            <div class="icon-box">
-              
-              <h4 class="title"><a href="">Link 1</a></h4>
-              <p class="description">Content</p>
+                            <h4 class="title"><a href="https://www.nationalgeographic.org/topics/resource-library-climate-change/?q=&page=1&per_page=25">Climate Change</a></h4>
+                            <p class="description">Global temperatures and sea levels are rising, and possibly contributing to larger more devastating storms. This can all be contributed to climate change. Climate change is defined as gradual changes in all the interconnected
+                                weather elements on our planet over approximately 30 years.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box icon-box-cyan">
+
+                            <h4 class="title"><a href="https://www.nationalgeographic.org/encyclopedia/climate-refugees/?utm_source=BibblioRCM_Row">Climate Refugees</a></h4>
+                            <p class="description">Climate change is changing the way we interact with our environments. With a changing climate come potential consequences for life on Earth.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box icon-box-green">
+
+                            <h4 class="title"><a href="https://www.nationalgeographic.org/article/weather-or-climate-whats-difference/?utm_source=BibblioRCM_Row">Weather or Climate</a></h4>
+                            <p class="description">While weather refers to short-term changes in the atmosphere, climate refers to atmospheric changes over longer periods of time, usually 30 years or more.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box icon-box-blue">
+
+                            <h4 class="title"><a href="https://www.nationalgeographic.org/article/all-about-climate/?utm_source=BibblioRCM_Row">All About Climate</a></h4>
+                            <p class="description">Climate is the long-term pattern of weather in a particular area. Weather can change from hour-to-hour, day-to-day, month-to-month or even year-to-year. A region’s weather patterns, usually tracked for at least 30 years, are
+                                considered its climate.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6 video-box">
+                        <img src="https://th.bing.com/th?id=OIF.NIEAH6yAM%2b382XM5axOtrQ&pid=ImgDet&rs=1" class="img-fluid" alt="">
+
+                    </div>
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+                        <div class="icon-box">
+
+                            <h4 class="title"><a href="">Link 1</a></h4>
+                            <p class="description">Content</p>
+                        </div>
+
+                        <div class="icon-box">
+
+                            <h4 class="title"><a href="">link2 </a></h4>
+                            <p class="description"></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>MAIN TOPIC</h2>
+                    <p>details</p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5">
+                        <img src="images/autumin.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 pt-4">
+                        <h3>AUTUMN</h3>
+                        <p class="fst-italic">
+                            topic content 1
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <img src="images/summer.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 pt-5 order-2 order-md-1">
+                        <h3>SUMMER</h3>
+                        <p class="fst-italic">
+                            content
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5">
+                        <img src="images/spring.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 pt-5">
+                        <h3>SPRING</h3>
+                        <p>Content</p>
+
+                    </div>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <img src="images/winter.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 pt-5 order-2 order-md-1">
+                        <h3>WINTER</h3>
+                        <p class="fst-italic">
+                            content
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="Home.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="projectlink.html">Project Lsit</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="signup page.html">Sign up</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p>
+                            Climotolgy <br> Climotolgy,Climotolgy
+                            <br> Climotolgy,Climotolgy,Climotolgy <br><br>
+                            <strong>Phone:</strong> +945565665656<br>
+                            <strong>Email:</strong> Climotolgy@gamil.com<br>
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <h3>About Climotolgy</h3>
+                        <p>Content.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Climotology</span></strong>. All Rights Reserved
             </div>
 
-            <div class="icon-box">
-              
-              <h4 class="title"><a href="">link2 </a></h4>
-              <p class="description"></p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>MAIN TOPIC</h2>
-          <p>details</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="images/autumin.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-4">
-            <h3>AUTUMN</h3>
-            <p class="fst-italic">
-              topic content 1
-            </p>
-           
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="images/summer.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>SUMMER</h3>
-            <p class="fst-italic">
-             content
-            </p>
-          
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="images/spring.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5">
-            <h3>SPRING</h3>
-            <p>Content</p>
-            
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="images/winter.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>WINTER</h3>
-            <p class="fst-italic">
-              content
-            </p>
-           
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-    
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="Home.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="projectlink.html">Project Lsit</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="signup page.html">Sign up</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              Climotolgy <br>
-              Climotolgy,Climotolgy<br>
-              Climotolgy,Climotolgy,Climotolgy <br><br>
-              <strong>Phone:</strong> +945565665656<br>
-              <strong>Email:</strong> Climotolgy@gamil.com<br>
-            </p>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Climotolgy</h3>
-            <p>Content.</p>
-           
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Climotology</span></strong>. All Rights Reserved
-      </div>
-      
-  </footer>
-
-  
+    </footer>
 
 
-  <script src="Home.js"></script>
+
+
+    <script src="Home.js"></script>
 
 </body>
 
