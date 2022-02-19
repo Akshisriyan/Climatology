@@ -1,41 +1,25 @@
 body {
-    /* font-family: "Open Sans", sans-serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #444;
-    background-image: url("./images/projectlist-bg.jpg");
-    background-size: cover;
+    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
 }
-  
+
 a {
-    color: #4fa6d7;
+    color: #4fa6d5;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
-  
+
 a:hover {
     color: #45beff;
     text-decoration: none;
 }
-  
-h1, h2, h3, h4, h5, h6, .font-primary {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-primary {
     font-family: "Roboto", sans-serif;
-}
-
-nav ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 1em;
-    text-indent: -1em;
-}
-
-nav ul li {
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-
-nav ul p {
-    margin-left: 50px;
-    color: #1A2238;
-    font-family: 'Poppins', sans-serif;
 }
