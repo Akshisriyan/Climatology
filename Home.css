@@ -1,7 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
-    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
 }
 
 a {
@@ -186,7 +186,7 @@ h6,
     top: 0;
     width: 130%;
     height: 95%;
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
@@ -310,7 +310,7 @@ h6,
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
 }
 
 #h-no-slider h2 {
@@ -355,7 +355,7 @@ h6,
 
 #wether {
     align-items: center;
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
     padding-top: 10px;
     padding-bottom: 100px;
     margin-top: 100px;
@@ -376,13 +376,13 @@ h6,
 }
 
 .button {
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/summer.jpeg") center top no-repeat;
     color: rgb(227, 232, 233);
     border: 2px solid #46658d;
 }
 
 .button:hover {
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/summer.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
     color: white;
 }
 
@@ -391,7 +391,7 @@ section {
 }
 
 .section-bg {
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/winter.jpeg") center top no-repeat;
 }
 
 .section-title {
@@ -434,7 +434,7 @@ section {
 }
 
 #footer {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
     padding: 0 0 10px 0;
     color: #fff;
     font-size: 14px;
@@ -489,7 +489,7 @@ section {
 }
 
 #footer .footer-top {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
