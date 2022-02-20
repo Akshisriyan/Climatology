@@ -8,7 +8,7 @@
 <meta name="format-detection" content="telephone=yes"/>
     <meta name="HandheldFriendly" content="true"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="css/home.css">
+
  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,6 +22,7 @@
 
     <link href="file/boostrap/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="file/boostrap/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="Home.css" rel="stylesheet">
 </head>	
 <body>
 
@@ -134,11 +135,11 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="home.html">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Project Lsit</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Sign up</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="Home.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="projectlink.html">Project Lsit</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="ourarticals.html">Our Articles</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="login.php">Sign up</a></li>
                         </ul>
                     </div>
 
@@ -189,9 +190,8 @@
     <script src="file/boostrap/swiper/swiper-bundle.min.js"></script>
     <script src="file/boostrap/waypoints/noframework.waypoints.js"></script>
 
-    <script src="home.js"></script>
-<!-- ........................................................-->
-<!-- footer end here-->
+    <script src="Home.js"></script>
+
 <?php
 
 	
