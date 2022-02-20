@@ -1,10 +1,56 @@
+<?php 
+session_start();
+    include("connection.php");
+    include("function.php");
+
+        if($_SERVER['REQUEST_METHOD'] == "POST")
+{
+
+        	$FullName = $_POST['FullName'];
+        	$UserName = $_POST['UserName'];
+        	$Password = $_POST['Password1'];
+        	
+
+        	if(!empty($UserName) && !empty($Password))
+    {
+          
+        	$query = "select * from registration where UserName= '$UserName' limit 1";
+        	$result = mysqli_query($con,$query);
+
+        if($result)
+        {
+            if ($result && mysqli_num_rows($result) > 0)
+			{
+               $user_data = mysqli_fetch_assoc($result);
+               
+               if($user_data['Password1'] === $Password);
+               {
+               //Donation page 
+               	header("Location: index.php");
+               	die;
+               }
+                echo "Wron information";
+			}else
+			{
+				echo "Please enter some valid information !";
+			}
+
+
+        }
+    }
+
+}
+
+
+?>
+
 
 <html>
 <head>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link href="registrationstyle.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="regcss/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="regcss/fontawesome-all.min.css">
 </head>
 <body>
 	<video autoplay muted loop id="Video1">
@@ -43,7 +89,7 @@
 			<br><br><br><br>
 			<h2>Login</h2>
 		</div>
-		<form action="login.html" method="post">
+		<form action="login.php" method="post">
 
 
 <div>
@@ -61,14 +107,14 @@
 
 
 <button type="submit" name="login">Log in</button>
-<p> Not a User?<a href="registration.html"><b>Register here</b></a></p>
+<p> Not a User?<a href="registration.php"><b>Register here</b></a></p>
 
 		</form>
 		</div>	
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script src="regjs/jquery.min.js"></script>
+<script src="regjs/popper.min.js"></script>
+<script src="regjs/bootstrap.min.js"></script>
+<script src="regjs/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>

@@ -1,12 +1,43 @@
+<?php 
+session_start();
+    include("connection.php");
+    include("function.php");
 
+        if($_SERVER['REQUEST_METHOD'] == "POST")
+        {
+
+        	$FullName = $_POST['FullName'];
+        	$UserName = $_POST['UserName'];
+        	$Password = $_POST['Password1'];
+        	$Email = $_POST['Email'];
+        	$DOB = $_POST['DOB'];
+        	$TelNo = $_POST['TelNo'];
+
+        	if(!empty($UserName) && !empty($Password))
+        	{
+          $User_ID = random_num(20);
+        	$query = "insert into userinfo (FullName,UserName,Password,Email,DOB,TelNo) values ('$FullName','$UserName','$Password','$Email','$DOB','$TelNo')";
+
+        	mysqli_query($con,$query);
+
+        	header("location: login.php");
+        	die;
+          }else
+          {
+          	echo "Please enter some valid informatiom";
+        }
+      }
+
+
+?>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="regcss/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="regcss/fontawesome-all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link href="registrationstyle.css" rel="stylesheet">
 </head>
-<body style="bg color: black;">
+<body >
 	<video autoplay muted loop id="Video1">
   <source src="video1.mp4" type="video/mp4">
 </video>
@@ -41,7 +72,7 @@
 
   <br><br><br><br>
   
-	<form action="registration.html" style="border:1px solid #ccc">
+	<form action="registration.php" style="border:1px solid #ccc" method="post">
   <div class="container" id="form" style="font-weight:bold;">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
@@ -82,15 +113,15 @@
 </div>
 <br>
 
-<button type="submit" name="regUser">Register</button>
-<p> Already a User?<a href="login.html"><b>Login</b></a></p>
+<button type="submit" name="regUser" >Register</button>
+<p> Already a User?<a href="login.php"><b>Login</b></a></p>
 
-		</form>
+	</form>
 		</div>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script src="regjs/jquery.min.js"></script>
+<script src="regjs/popper.min.js"></script>
+<script src="regjs/bootstrap.min.js"></script>
+<script src="regjs/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
