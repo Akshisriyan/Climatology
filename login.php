@@ -26,7 +26,7 @@ session_start();
                if($user_data['Password1'] === $Password);
                {
                //Donation page 
-               	header("Location: index.php");
+               	header("Location: ourarticals.html");
                	die;
                }
                 echo "Wron information";
@@ -87,7 +87,8 @@ session_start();
 	<div class="container" style="font-weight:bold;">
 		<div class="header">
 			<br><br><br><br>
-			<h2>Login</h2>
+			<h1>Login</h1>
+			<h2>If you want to see our Articels You Must Register Here First.</h2>
 		</div>
 		<form action="login.php" method="post">
 
