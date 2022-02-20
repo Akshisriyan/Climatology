@@ -3,13 +3,13 @@ body {
     color: #444;
 }
 
-a:hover {
-    color: #45beff;
+a {
+    color: #4fa6d5;
     text-decoration: none;
 }
 
-a {
-    color: #4fa6d5;
+a:hover {
+    color: #45beff;
     text-decoration: none;
 }
 
@@ -28,11 +28,7 @@ h6,
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #1e4356;
-}
-
-#header.header-transparent {
-    background: none;
+    background: #081f2b;
 }
 
 #header.header-scrolled {
@@ -183,6 +179,7 @@ h6,
     padding: 30px;
     margin-bottom: 60px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
 }
 
 .blog .entry .entry-img {
@@ -260,6 +257,174 @@ h6,
     background: #7aafcb;
 }
 
+
+/*USELESS*/
+
+.blog .entry .entry-content h3 {
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.blog .entry .entry-content blockquote {
+    overflow: hidden;
+    background-color: #fafafa;
+    padding: 60px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog .entry .entry-content blockquote p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.blog .entry .entry-content blockquote::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #1e4356;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog .entry .entry-footer {
+    padding-top: 10px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.blog .entry .entry-footer i {
+    color: #4c99c1;
+    display: inline;
+}
+
+.blog .entry .entry-footer a {
+    color: #255269;
+    transition: 0.3s;
+}
+
+.blog .entry .entry-footer a:hover {
+    color: #68A4C4;
+}
+
+.blog .entry .entry-footer .cats {
+    list-style: none;
+    display: inline;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+}
+
+.blog .entry .entry-footer .cats li {
+    display: inline-block;
+}
+
+.blog .entry .entry-footer .tags {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    font-size: 14px;
+}
+
+.blog .entry .entry-footer .tags li {
+    display: inline-block;
+}
+
+.blog .entry .entry-footer .tags li+li::before {
+    padding-right: 6px;
+    color: #6c757d;
+    content: ",";
+}
+
+.blog .entry .entry-footer .share {
+    font-size: 16px;
+}
+
+.blog .entry .entry-footer .share i {
+    padding-left: 5px;
+}
+
+.blog .entry-single {
+    margin-bottom: 30px;
+}
+
+.blog .blog-author {
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog .blog-author img {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.blog .blog-author h4 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0px;
+    padding: 0;
+    color: #1e4356;
+}
+
+.blog .blog-author .social-links {
+    margin: 0 10px 10px 0;
+}
+
+.blog .blog-author .social-links a {
+    color: rgba(30, 67, 86, 0.5);
+    margin-right: 5px;
+}
+
+.blog .blog-author p {
+    font-style: italic;
+    color: #b7b7b7;
+}
+
+.blog .blog-pagination {
+    color: #387ea2;
+}
+
+.blog .blog-pagination ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.blog .blog-pagination li {
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.blog .blog-pagination li a {
+    color: #1e4356;
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog .blog-pagination li.active,
+.blog .blog-pagination li:hover {
+    background: #68A4C4;
+}
+
+.blog .blog-pagination li.active a,
+.blog .blog-pagination li:hover a {
+    color: #fff;
+}
+
+
+/*USELESS*/
+
 .blog .sidebar {
     padding: 30px;
     margin: 0 0 60px 20px;
@@ -277,45 +442,6 @@ h6,
 
 .blog .sidebar .sidebar-item {
     margin-bottom: 30px;
-}
-
-.blog .sidebar .search-form form {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 3px 10px;
-    position: relative;
-}
-
-.blog .sidebar .search-form form input[type=text] {
-    border: 0;
-    padding: 4px;
-    border-radius: 4px;
-    width: calc(100% - 40px);
-}
-
-.blog .sidebar .search-form form button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 15px;
-    margin: -1px;
-    background: #68A4C4;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 0 4px 4px 0;
-    line-height: 0;
-}
-
-.blog .sidebar .search-form form button i {
-    line-height: 0;
-}
-
-.blog .sidebar .search-form form button:hover {
-    background: #77adca;
 }
 
 .blog .sidebar .recent-posts .post-item+.post-item {
@@ -351,14 +477,14 @@ h6,
 }
 
 #footer {
-    background: #0b212d;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
 }
 
 #footer .footer-top {
-    background: #0d2735;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
