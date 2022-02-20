@@ -24,7 +24,6 @@
 
 <body>
 
-
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex justify-content-between align-items-center">
 
@@ -76,8 +75,12 @@
     </section>
 
     <section id="wether">
-        <hr/>
-        <h3 class="wether">Live Weather Status</h3>
+        <div class="section-title">
+            <h2> TODAY WEATHER</h2>
+
+        </div>
+
+
         <div style="display: inline-block; vertical-align: top; margin-top: 20px;">
             <select onchange="getW(this)">
       <option value="1248991" >Sri Lanka - Colombo</option>
@@ -102,13 +105,16 @@
                 <h4>Description : <span id="description"></span></h4>
             </div>
         </div>
-        <hr/>
     </section>
     <main id="main">
 
 
         <section class="services">
             <div class="container">
+                <div class="section-title">
+                    <h2>CLIMATES</h2>
+                    <p>details</p>
+                </div>
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
@@ -322,6 +328,7 @@
             </div>
 
     </footer>
+
 
 
     <script src="files/purecounter/purecounter.js"></script>
