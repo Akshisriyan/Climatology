@@ -66,19 +66,19 @@ session_start();
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       	<ul class="navbar-nav">
         	<li class="nav-item">
-          		<a class="nav-link active" href="#Home">Home</a>
+          		<a class="nav-link active" href="Home.html">Home</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link" href="#Mission">About</a>
+          		<a class="nav-link" href="aboutus.html">About</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link" href="#About">Project List</a>
+          		<a class="nav-link" href="projectlink.html">Project List</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link" href="News.html">Blog</a>
+          		<a class="nav-link" href="login.php">Our Articles</a>
         	</li>
 		  	<li class="nav-item">
-          		<a class="nav-link" href="Login.html">Signup</a>
+          		<a class="nav-link" href="login.php">Signup</a>
         	</li>
       	</ul>
     </div>
