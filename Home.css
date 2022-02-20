@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
+    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
 }
 
 a {
@@ -185,7 +186,7 @@ h6,
     top: 0;
     width: 130%;
     height: 95%;
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
@@ -309,7 +310,7 @@ h6,
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
 }
 
 #h-no-slider h2 {
@@ -354,11 +355,35 @@ h6,
 
 #wether {
     align-items: center;
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    padding-top: 10px;
+    padding-bottom: 100px;
     margin-top: 100px;
     font-style: oblique;
+}
+
+.button {
+    border: none;
+    color: rgb(13, 9, 63);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    color: rgb(227, 232, 233);
+    border: 2px solid #46658d;
+}
+
+.button:hover {
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/summer.jpeg") center top no-repeat;
+    color: white;
 }
 
 section {
@@ -366,7 +391,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f3f8fa;
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
 }
 
 .section-title {
@@ -409,8 +434,8 @@ section {
 }
 
 #footer {
-    background: #0b212d;
-    padding: 0 0 30px 0;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/spring.jpeg") center top no-repeat;
+    padding: 0 0 10px 0;
     color: #fff;
     font-size: 14px;
 }
@@ -464,7 +489,7 @@ section {
 }
 
 #footer .footer-top {
-    background: #0d2735;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
