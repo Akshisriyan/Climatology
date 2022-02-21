@@ -10,7 +10,7 @@
 
 h1.title {
     margin-bottom: 20px;
-    color: #444444;
+    color: #113e72;
     font-family: 'Allura', cursive;
     text-transform: uppercase;
     font-size: 38px;
@@ -426,6 +426,7 @@ p {
 
 .form_wrapper .form_input {
     margin-bottom: 15px;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
 }
 
 .form_wrapper .form_input input[type="text"] {
@@ -509,7 +510,7 @@ p {
 }
 
 .text {
-    background-color: #1e2724;
+    background-color: #50aadd;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
