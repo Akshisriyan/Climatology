@@ -189,7 +189,7 @@ p {
 }
 
 #footer {
-    background: #0b212d;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
     padding: 0 0 40px 0;
     color: #fff;
     font-size: 14px;
@@ -244,7 +244,7 @@ p {
 }
 
 #footer .footer-top {
-    background: #0d2735;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
@@ -343,7 +343,7 @@ p {
 }
 
 .banner_image {
-    background: url('../images/img5.jpg') no-repeat top center;
+    background: url('../Climatology/images/img5.jpg') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -398,7 +398,7 @@ p {
 }
 
 .services {
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
 }
 
 .diff_services {
@@ -443,7 +443,7 @@ p {
 }
 
 .ourteam {
-    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
 }
 
 .ourteam {
