@@ -46,13 +46,11 @@ p {
     z-index: 997;
     transition: all 0.5s;
     background: #081f2b;
-    
 }
 
 #header.header-scrolled {
     background: #1e4356;
     height: 60px;
-   
 }
 
 #header .logo h1 {
@@ -63,17 +61,12 @@ p {
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
-    
-
-    
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
     color: #fff;
     text-decoration: none;
-    
-
 }
 
 #header .logo img {
@@ -88,8 +81,6 @@ p {
 
 .navbar {
     padding: 0;
-    
-
 }
 
 .navbar ul {
@@ -351,27 +342,20 @@ p {
     color: #a2cce3;
 }
 
-
-
-
 .banner_image {
     background: url('../images/img5.jpg') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 600px;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
-    
 }
-
-
 
 .banner_content {
     text-align: center;
     /*color: rgba(255, 255, 255, 0.514);*/
     color: #206791fb
-    
 }
 
 .banner_content h1 {
@@ -408,14 +392,10 @@ p {
 
 .about,
 .services,
-.contactus
- {
+.contactus {
     text-align: center;
     padding: 5% 10%;
 }
-
-
-
 
 .services {
     background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
@@ -462,55 +442,44 @@ p {
     border: 1px solid #ccc;
 }
 
-
-
-
 .ourteam {
     background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.bing.com/images/search?view=detailV2&ccid=onVPev7Y&id=171892DE3146FF41EF2F5C5CCD4CFD17FD418DAD&thid=OIP.onVPev7Yp7ZnMVoRXdPzyAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f9%2f1173035-cold-weather-wallpaper-1920x1200-1080p.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a2754f7afed8a7b667315a115dd3f3c8%3frik%3drY1B%252fRf9TM1cXA%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=climate+images+jpg+site&simid=608036205324229721&FORM=IRPRST&ck=5CDB6ED348F9D504FED7FBCDCA40B3E2&selectedIndex=1&qpvt=climate+images+jpg+site") center top no-repeat;
 }
+
 .ourteam {
     text-align: center;
     padding: 0% 0%;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
 }
 
-
-
-  
- .column {
+.column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
-  }
-  
-  
-  
-  .image {
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.829);
-  }
-  
-  .middle {
-    padding: 0 16px;
-  }
-  
+}
 
-  .column {
+.image {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.829);
+}
+
+.middle {
+    padding: 0 16px;
+}
+
+.column {
     position: relative;
     padding: auto;
-   
-  }
-  
-  .image {
+}
+
+.image {
     opacity: 1;
     display: block;
-  
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -518,9 +487,9 @@ p {
     overflow: hidden;
     position: relative;
     padding: 5% 5%;
-  }
-  
-  .middle {
+}
+
+.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -529,34 +498,23 @@ p {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .column:hover .image {
+}
+
+.column:hover .image {
     opacity: 0.3;
-  }
-  
-  .column:hover .middle {
+}
+
+.column:hover .middle {
     opacity: 1;
-  }
-  
-  
-  .text {
+}
+
+.text {
     background-color: #1e2724;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  }
+}
 
-   .image:hover  img {
+.image:hover img {
     transform: scale(1.1);
 }
-  
-  
-   
-
-
- 
-
-
-
-
