@@ -179,7 +179,7 @@ h6,
     padding: 30px;
     margin-bottom: 60px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("../images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(194, 199, 202, 0.8), rgba(228, 234, 236, 0.6)), url("") center top no-repeat;
 }
 
 .blog .entry .entry-img {

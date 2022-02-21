@@ -1,22 +1,38 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
 }
 
 h2 {
-    text-align:center;
+    text-align: center;
     color: blue;
     text-decoration: none;
     padding: 0;
-  margin: 0 0 20px 0;
-  font-weight: bold;
-
+    margin: 0 0 20px 0;
+    font-weight: bold;
 }
 
+h3 {
+    color: #45beff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+    text-align: center;
+}
 
-h3 {  color: #f97e0b; font-family: 'Open Sans', sans-serif; font-size: 34px; font-weight: 300; line-height: 40px; margin: 0 0 16px; text-align:center; }
-
-h5 { color: #222; font-family: 'Open Sans', sans-serif; font-size: 25px; font-weight: 400; line-height: 24px; margin-left: 20em; margin-right:20em; text-align:center;}
+h5 {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: center;
+}
 
 a:hover {
     color: #45beff;
@@ -27,7 +43,7 @@ a:hover {
     padding: 100px;
     margin-bottom: 60px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  }
+}
 
 h1,
 h2,
@@ -38,8 +54,6 @@ h6,
 .font-primary {
     font-family: "Roboto", sans-serif;
 }
-
-
 
 #header {
     height: 80px;
@@ -190,7 +204,7 @@ h6,
 }
 
 #footer {
-    background: #0b212d;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -245,7 +259,7 @@ h6,
 }
 
 #footer .footer-top {
-    background: #0d2735;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
@@ -340,4 +354,16 @@ h6,
 
 #footer .credits a {
     color: #a2cce3;
+}
+
+@media (max-width: 991px) {
+    #section-img {
+        padding: 0%;
+        margin: auto;
+    }
+    #section-h5,
+    h3 {
+        padding: 0%;
+        margin: auto;
+    }
 }
