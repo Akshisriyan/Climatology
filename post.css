@@ -3,15 +3,31 @@ body {
     color: #444;
 }
 
-a {
-    color: #4fa6d5;
+h2 {
+    text-align:center;
+    color: blue;
     text-decoration: none;
+    padding: 0;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+
 }
+
+
+h3 {  color: #f97e0b; font-family: 'Open Sans', sans-serif; font-size: 34px; font-weight: 300; line-height: 40px; margin: 0 0 16px; text-align:center; }
+
+h4 { color: #222; font-family: 'Open Sans', sans-serif; font-size: 25px; font-weight: 400; line-height: 24px; margin-left: 20em; margin-right:20em;}
 
 a:hover {
     color: #45beff;
     text-decoration: none;
 }
+
+.img {
+    padding: 100px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
 
 h1,
 h2,
@@ -22,6 +38,8 @@ h6,
 .font-primary {
     font-family: "Roboto", sans-serif;
 }
+
+
 
 #header {
     height: 80px;
