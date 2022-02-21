@@ -80,6 +80,9 @@ session_start();
 		  	<li class="nav-item">
           		<a class="nav-link" href="login.php">Signup</a>
         	</li>
+			<li class="nav-item">
+          		<a class="nav-link" href="donations.html">Donations</a>
+        	</li>
       	</ul>
     </div>
   </div>
