@@ -58,6 +58,7 @@
 	<div class="form-box">
 	<form method="POST" name="form1" action="donate-form-2.php">
         <p style="text-align: center;">
+    <img src="images/11-2-environment-free-png-image.jpeg" alt="">
 	<legend>Donate</legend>
 	<table class="form-table">
 		<tr>
