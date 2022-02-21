@@ -127,7 +127,7 @@
 <!-- ........................................................-->
 <!--footer start here  -->
   <!-- Site footer -->
-   
+
   <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
 
@@ -147,17 +147,6 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><i class="bx bx-chevron-right"></i> </li>
-                    <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
-                    <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
-                    <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
-                    <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
-                </ul>
-            </div>
-
             <div class="col-lg-3 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
@@ -168,10 +157,17 @@
 
             </div>
 
+
+
             <div class="col-lg-3 col-md-6 footer-info">
-                <h3>About Climatology</h3>
-                <p>The science is in. we know climate change is happening. we know it's serious. We know what's causing it, and we know what needs to change.SO WHY AREN'T WE FIXING IT? Asults love telling kids how to behave, but they don't always
-                    follow their own advice. This inspiring website cuts through the politics and misconceptions, and shows how we can work together to build a cleaner, fairer, better world.</p>
+                <h3>Our Purpose</h3>
+                <p>Life will be a lot easier if you accept that you must not take the easy road. Envision yourself as a champion, and do whatever it takes to create that reality and prove to yourself that you are indeed a champion. It takes three
+                    times as much water to craete a plastic water bottle than it does to fill it. so, where we are , think as adults. We all have responsible to our lives.so, think ten times before to do something.</p>
+
+            </div>
+            <div class="col-lg-3 col-md-6 footer-info">
+                <h3>Our Mission</h3>
+                <p>To understand and predict changes in climate, weather, ocean, and coasts, to share that knowledge and information with others, and to be focus on the actions to be taken to maintain a balanced climate</p>
 
             </div>
 
@@ -185,7 +181,6 @@
     </div>
 
 </footer>
-
 
     <script src="files/purecounter/purecounter.js"></script>
     <script src="files/aos/aos.js"></script>
