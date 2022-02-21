@@ -51,11 +51,13 @@
 
 <div class="big-box">
 <div class="words-box">
-<h1>Protect Climate Today</h1>
-<p>content  </p>
+<h1>Potect Climate Today</h1>
+<p style="text-align: center;">content </p>
+
  </div>
 	<div class="form-box">
 	<form method="POST" name="form1" action="donate-form-2.php">
+        <p style="text-align: center;">
 	<legend>Donate</legend>
 	<table class="form-table">
 		<tr>
@@ -107,8 +109,9 @@
 			<td colspan="3"><textarea class="input-box" placeholder="Feel Free to comment"></textarea>		</td>
 		</tr>
 	</table>
+    
 	<input type="reset" value="Clear" class="reset-button">
-	<input type="submit" value="Donate" class="sub-button">
+	<input type="submit" value="Donate" class="sub-button"></p>
 	</form>
 	
 	</div>
@@ -146,11 +149,11 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Climotolgy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
+                            <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
+                            <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
+                            <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
+                            <li><i class="bx bx-chevron-right"></i> Climotolgy</li>
                         </ul>
                     </div>
 
