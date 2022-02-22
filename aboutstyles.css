@@ -169,6 +169,7 @@ p {
     overflow-y: auto;
     transition: 0.3s;
 }
+
 .navbar-mobile a,
 .navbar-mobile a:focus {
     padding: 10px 20px;
@@ -188,7 +189,7 @@ p {
 }
 
 #footer {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
     padding: 0 0 40px 0;
     color: #fff;
     font-size: 14px;
@@ -243,7 +244,7 @@ p {
 }
 
 #footer .footer-top {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;

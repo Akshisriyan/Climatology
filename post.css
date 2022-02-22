@@ -1,12 +1,12 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(90, 148, 177, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
 }
 
 h2 {
     text-align: center;
-    color: blue;
+    color: rgb(20, 55, 95);
     text-decoration: none;
     padding: 0;
     margin: 0 0 20px 0;
@@ -204,7 +204,7 @@ h6,
 }
 
 #footer {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/spring.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -259,7 +259,7 @@ h6,
 }
 
 #footer .footer-top {
-    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/autumin.jpeg") center top no-repeat;
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
     border-top: 1px solid #17455e;
     border-bottom: 1px solid #123649;
     padding: 60px 0 30px 0;
@@ -356,14 +356,55 @@ h6,
     color: #a2cce3;
 }
 
-@media (max-width: 991px) {
-    #section-img {
-        padding: 0%;
-        margin: auto;
+#section-img {
+    padding: 0%;
+    margin: auto;
+}
+
+#section-h5,
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+@media all and (max-width:500px) {
+    body {
+        font-family: "Open Sans", sans-serif;
+        color: #444;
+        background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("") center top no-repeat;
     }
-    #section-h5,
+    h2 {
+        text-align: center;
+        color: rgb(20, 55, 95);
+        text-decoration: none;
+        padding: 0;
+        margin: 20px 20px 20px 0;
+        font-weight: bold;
+    }
     h3 {
-        padding: 0%;
-        margin: auto;
+        color: #45beff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 20px;
+        margin: 20px 20px 16px;
+        text-align: center;
+    }
+    h5 {
+        color: #222;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 20em;
+        margin-right: 20em;
+        text-align: center;
+    }
+    a:hover {
+        color: #45beff;
+        text-decoration: none;
     }
 }
