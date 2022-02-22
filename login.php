@@ -75,7 +75,7 @@ session_start();
           		<a class="nav-link" href="projectlink.html">Project List</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link" href="login.php">Our Articles</a>
+          		<a class="nav-link" href="ourarticals.html">Our Articles</a>
         	</li>
 		  	<li class="nav-item">
           		<a class="nav-link" href="donations.html">Donations</a>
