@@ -26,7 +26,7 @@ session_start();
                if($user_data['Password1'] === $Password);
                {
                //Donation page 
-               	header("Location: ourarticals.html");
+               	header("Location: donate-form-2.php ");
                	die;
                }
                 echo "Wron information";
@@ -78,10 +78,10 @@ session_start();
           		<a class="nav-link" href="login.php">Our Articles</a>
         	</li>
 		  	<li class="nav-item">
-          		<a class="nav-link" href="login.php">Signup</a>
+          		<a class="nav-link" href="donations.html">Donations</a>
         	</li>
 			<li class="nav-item">
-          		<a class="nav-link" href="donations.html">Donations</a>
+          		<a class="nav-link" href="login.php">Sign Up</a>
         	</li>
       	</ul>
     </div>
@@ -91,7 +91,7 @@ session_start();
 		<div class="header">
 			<br><br><br><br>
 			<h1>Login</h1>
-			<h2>If you want to see our Articels You Must Register Here First.</h2>
+			<h2>If you want to DONATE You Must Register Here First.</h2>
 		</div>
 		<form action="login.php" method="post">
 

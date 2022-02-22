@@ -20,18 +20,18 @@
             <div class="logo">
 
                 <img src="images/11-2-environment-free-png-image.jpeg" alt="">
-                <h1 class="text-light">CLIMATOLGY</h1>
+                <h1 class="text-light">CLIMATOLOGY</h1>
 
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="active " href="Home.html">Home</a></li>
+                <li><a class="active " href="Home.html">Home</a></li>
                     <li><a href="aboutus.html">About</a></li>
                     <li><a href="projectlink.html">Project List</a></li>
-                    <li><a href="login.php">Our Articles</a></li>
-                    <li><a href="login.php">Sign up</a></li>
+                    <li><a href="ourarticals.html">Our Articles</a></li>
                     <li><a href="donations.html">Donations</a></li>
+                    <li><a href="login.php">Sign up</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -55,7 +55,6 @@ if($con)
 echo"<h1><center>Thank you For your donate</h1></center>";
 ?>
 </p>
-
 <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
 
@@ -67,10 +66,11 @@ echo"<h1><center>Thank you For your donate</h1></center>";
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="home.html">Home</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="Home.html">Home</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="projectlink.html">Project Lsit</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="login.php">Our Articles</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="ourarticals.html">Our Articles</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="donations.html">Donation</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="login.php">Sign up</a></li>
                 </ul>
             </div>
@@ -105,7 +105,7 @@ echo"<h1><center>Thank you For your donate</h1></center>";
 
 <div class="container">
     <div class="copyright">
-        &copy; Copyright <strong><span>Climotology</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Climatology</span></strong>. All Rights Reserved
     </div>
 
 </footer>
