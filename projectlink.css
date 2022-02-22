@@ -71,8 +71,6 @@ h6,
     color: #a2cce3;
 }
 
-
-
 .mobile-nav-toggle {
     color: #fff;
     font-size: 28px;
@@ -137,6 +135,53 @@ h6,
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
     margin: 15px;
+}
+
+ection {
+    padding: 60px 0;
+}
+
+.section-bg {
+    background: linear-gradient(to right, rgba(170, 215, 238, 0.8), rgba(30, 67, 86, 0.6)), url("../Climatology/images/winter.jpeg") center top no-repeat;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #68A4C4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-title p {
+    margin-bottom: 0;
 }
 
 #footer {
