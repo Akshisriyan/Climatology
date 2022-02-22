@@ -109,11 +109,7 @@
 			<input type="number" step="any" class="input-box" name="cash"  min="10" max="10000" value="<?php echo $_POST['donate-value'];?>">
 			</td>
 		</tr>
-		<tr>
-			<td>
-			<label for="com"><h3>Comment</h3></label></td>
-			<td colspan="3"><textarea class="input-box" placeholder="Feel Free to comment"></textarea>		</td>
-		</tr>
+	
 	</table>
     <P style="text-align: center;">
 	<input type="reset" value="Clear" class="reset-button">

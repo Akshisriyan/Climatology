@@ -39,18 +39,33 @@
         </div>
     </header>
     <p style="text-align: center;">
+    <br>
+    <br>
+    <br>
     <img src="images/11-2-environment-free-png-image.jpeg" alt="">
 <?php
 
 $host="localhost";
 $fname=$_POST["Fname"];
 $lname=$_POST["Lname"];
+$email=$_POST["emailname"];
+$tele=$_POST["tp"];
+$add=$_POST["add"];
+$city=$_POST["ct"];
+$state=$_POST["st"];
+$zip=$_POST["zip"];
+$cash=$_POST["cash"];
+
 
 $con=@mysqli_connect($host,"root","","donate");
-$sql="INSERT INTO doante(fname,lname) VALUES ('$fname','$lname')";
+$sql="INSERT INTO donate(fname,lname,email,addr,phone,city,zip,amount) VALUES ('$fname','$lname','$email','$add','$tele','$city','$zip','$cash')";
 if($con)
 {
     mysqli_query($con,$sql);
+}
+else
+{
+    echo"connection failed";
 }
 echo"<h1><center>Thank you For your donate</h1></center>";
 ?>
