@@ -10,7 +10,7 @@
 
 h1.title {
     margin-bottom: 20px;
-    color: #113e72;
+    color: #444444;
     font-family: 'Allura', cursive;
     text-transform: uppercase;
     font-size: 38px;
@@ -169,7 +169,6 @@ p {
     overflow-y: auto;
     transition: 0.3s;
 }
-
 .navbar-mobile a,
 .navbar-mobile a:focus {
     padding: 10px 20px;
