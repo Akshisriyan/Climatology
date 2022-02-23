@@ -342,7 +342,7 @@ p {
 }
 
 .banner_image {
-    background: url('../Climatology/images/img5.jpg') no-repeat top center;
+    background: url('../Climatology/images/img6.jpg') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -354,7 +354,7 @@ p {
 .banner_content {
     text-align: center;
     /*color: rgba(255, 255, 255, 0.514);*/
-    color: #206791fb
+    color: #000000fb
 }
 
 .banner_content h1 {
@@ -364,7 +364,7 @@ p {
 }
 
 .banner_content h1 span {
-    color: #09344b;
+    color: #180083;
 }
 
 .contact {
