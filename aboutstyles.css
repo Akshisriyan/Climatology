@@ -70,9 +70,10 @@ p {
 }
 
 #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
+    padding: 0px;
+    margin: -60px;
+    margin-top: -30px;
+    max-height: 50px;
 }
 
 #main {
